@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  min-height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+}
+
+.card p {
+  color: #666;
+}
